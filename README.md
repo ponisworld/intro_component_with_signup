@@ -49,7 +49,7 @@ Users should be able to:
 
 ### What I learned
 
-I really loved this challenge! It made me think a lot, because I wanted to practice VanillaJS so bad that I made this form validation fully Vanilla, no APIs and Libraries. Just me and my mind, because I didn't like any type of tutorial as well. I thought every tutorial was so simple and at the same time, so wack and long that I couldn't maintain my attention. I made a flowchart for doing this, as well as some testing on paper. I really had so fun making this and I'm happy that it went me so well. 
+I really loved this challenge! It made me think a lot, because I wanted to practice VanillaJS so bad that I made this form validation fully Vanilla, no APIs or Libraries, from scratch. Mainly, because I didn't like any kind of tutorials that I came across. I thought every tutorial was so simple and at the same time, so wack and long that I couldn't maintain my attention. I made a flowchart for doing this, as well as some testing on paper. I really had so much fun making this and I'm happy that it went so well for me. 
 
 ### Continued development
 
