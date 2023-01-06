@@ -124,7 +124,7 @@ input:focus {
     outline: var(--dark-blue) 1.5px solid;
 }
 
-input:invalid:focus {
+input.invalid {
     outline: var(--red) 1.5px solid;
     background-repeat: no-repeat;
     background-image: url(../img/icon-error.svg);
@@ -136,8 +136,12 @@ input:invalid:focus {
 }
 
 div.error {
+    letter-spacing: 0.01rem;
+    font-style: italic;
+    width: 88%;
+    text-align: right;
     color: var(--red);
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
 
 button {
