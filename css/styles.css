@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-
 /* GENERAL ASPECTS */
 :root {
     font-size: 1rem;
@@ -92,7 +91,7 @@ div.explanation > p {
     width: 85vw;
     max-width: 550px;
     margin: 1.2rem auto;
-    padding: 1.2rem 6rem;
+    padding: 1.2rem 3rem;
     border-radius: 10px;
     box-shadow: 0px 8px 0px 0px hsla(249, 10%, 26%, 0.2);
     background-color: var(--blue);
@@ -117,9 +116,28 @@ input {
     padding: 1rem 2rem;
     border-radius: 8px;
     border: var(--grayish-blue) 1px solid;
+    color: var(--dark-blue);
+    font-weight: 600;
+    font-size: 1.05rem;
 }
 input:focus {
-    border: var(--dark-blue) 1.5px solid;
+    outline: var(--dark-blue) 1.5px solid;
+}
+
+input:invalid:focus {
+    outline: var(--red) 1.5px solid;
+    background-repeat: no-repeat;
+    background-image: url(../img/icon-error.svg);
+    background-position: center right 15px;
+}
+
+.none {
+    display: none;
+}
+
+div.error {
+    color: var(--red);
+    font-size: 0.8rem;
 }
 
 button {
@@ -129,8 +147,6 @@ button {
     border-radius: 8px;
     box-shadow: 0px 6px 0px 0px hsl(154, 59%, 46%);
 }
-
-
 
 /* FOOTER */
 
